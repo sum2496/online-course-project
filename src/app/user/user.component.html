@@ -1,0 +1,24 @@
+<div class="user">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="toggleSidenav()" style="background-color: black; color: white;">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <h1>Welcome, {{ user.substring(1,user.length-1) }}</h1>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <mat-drawer-container autosize>
+    <mat-drawer #sidenav mode="side" class="sidebar">
+      <mat-nav-list>
+        <a routerLink="/user/usercourses">My Courses</a>
+        <a href="/user/assignments">Assignments and Tasks</a>
+        <a href="/user/doubts">Ask Doubts</a>
+      </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+      <div style="min-height: 80vh;">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</div>

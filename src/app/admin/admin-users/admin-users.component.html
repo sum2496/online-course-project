@@ -1,0 +1,11 @@
+<div class="admin-users" >
+  <div class="admin-user-available" *ngIf="userRegistered.length == 0">
+    <p>No Registered Users!!!</p>
+  </div>
+  <div class="admin-users-detail" *ngIf="userRegistered.length > 0">
+    <div class="admin-user" *ngFor="let user of userRegistered">
+      <p><strong>Name</strong>  : {{ user.name }}</p>
+      <p><strong>Email</strong> : {{ user.email }} </p>
+    </div>
+  </div>
+</div>

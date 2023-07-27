@@ -1,0 +1,11 @@
+<mat-toolbar class="nav-toolbar">
+  <span class="nav-brand"> <a [routerLink]="['/home']">E-Knowledge</a> </span>
+  <div class="nav-items">
+    <a class="nav-link" [routerLink]="['/courses']">Courses</a>
+    <a class="nav-link" [routerLink]="['/about']">About Us</a>
+    <a class="nav-link" *ngIf="isLoggedIn" [routerLink]="getDashBoardRoute()">My Dashboard</a>
+    <a class="nav-link" *ngIf="!isLoggedIn" [routerLink]="['/login']">Login</a>
+    <a class="nav-link" *ngIf="isLoggedIn" [routerLink]="['/home']" (click)="onLogout()">Logout</a>
+    <a class="nav-link" *ngIf="!isLoggedIn" [routerLink]="['/register']">Register</a>
+  </div>
+</mat-toolbar>

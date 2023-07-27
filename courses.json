@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "coursesList": [
+    {
+      "course_name": "React - The Complete Guide 2023 (incl. React Router & Redux)",
+      "course_thumbnail": "https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png",
+      "course_desc": "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more! \n JavaScript + HTML + CSS fundamentals are absolutely required \n You DON'T need to be a JavaScript expert to succeed in this course! \n ES6+ JavaScript knowledge is beneficial but not a must-have \n NO prior React or any other JS framework experience is required!",
+      "course_category": "Web Development",
+      "course_instructor": "Dr. Schwartz",
+      "course_video": "https://www.youtube.com/embed/videoseries?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",
+      "course_price": 499,
+      "id": 1
+    },
+    {
+      "course_name": "Angular (2020 Edition) - Complete Course Guide",
+      "course_thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrZXioj5sNaA3oICIQPFTvqjMNPOZHcY2WsGs3UieEA&s",
+      "course_desc": "Master Angular (formerly 'Angular 2') and build awesome, reactive web apps with the successor of Angular.js NO Angular 1 or Angular 2+ knowledge is required! Basic HTML and CSS knowledge helps, but isn't a must-have Prior TypeScript knowledge also helps but isn't necessary to benefit from this course Basic JavaScript knowledge is required",
+      "course_category": "Web development",
+      "course_instructor": "Miller Fradman",
+      "course_video":"https://www.youtube.com/embed/videoseries?list=PL_euSNU_eLbeAJxvVdJn5lhPWX9IWHhxs",
+      "course_price": 799,
+      "id": 2
+    },
+    {
+      "course_name": "Artificial Intelligence (2020 Edition)",
+      "course_thumbnail": "https://itchronicles.com/wp-content/uploads/2020/11/where-is-ai-used.jpg",
+      "course_desc": "Understand Artificial Intelligence and teach it to your students! The course is aimed at all those people, irrespective of their profession, who would like to learn how to make active use of AI. No prior knowledge is assumed, no expertise in any related area is required because we will start by introducing the very basic concepts. It is our firm belief that we have to democratize AI, bring it to the people and help them navigate through this maze of new amazing technologies. We will also illustrate a number of fun exercises, to help you understand these concepts and urge you to try them with others.",
+      "course_category": "Artificial Intelligence",
+      "course_instructor": "Maxx Schiller",
+      "course_video":"https://www.youtube.com/embed/videoseries?list=PLEiEAq2VkUULyr_ftxpHB6DumOq1Zz2hq",
+      "course_price": 599,
+      "id": 3
+    },
+    {
+      "course_name": "Learn Python from Scratch in easy way (Full Course 2019 Edition)",
+      "course_thumbnail": "https://miro.medium.com/v2/resize:fit:750/0*kQ7HxB1t_RBDIxyH.jpg",
+      "course_desc": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications.   \n Who this course is for:\n Beginners who have never programmed before.\n Programmers switching languages to Python.\n Intermediate Python programmers who want to level up their skills!\n                                                              \n\n",
+      "course_category": "Programming Language",
+      "course_instructor": "Navin Reddy",
+      "course_video": "https://www.youtube.com/embed/videoseries?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3",
+      "course_price": 299,
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,38 @@
+.add-courses {
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.add-courses-heading {
+  margin: 1rem;
+  text-align: center;
+}
+
+.add-courses-heading h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.add-courses-form {
+  margin: 1rem;
+}
+
+.course-form-data {
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+
+.course-form-data input {
+  padding: .5rem;
+  width: 50%;
+}
+
+.course-form-data textarea {
+  width: 90%;
+}
+
+.course-form-data button{
+  font-size: 1.5rem;
+  padding: .5rem;
+  border-radius: 5px;
+}

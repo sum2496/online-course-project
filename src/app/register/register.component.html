@@ -1,0 +1,41 @@
+<div class="register-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title> Register </mat-card-title>
+    </mat-card-header>
+    <form novalidate class="example-form" (ngSubmit)="onRegister(register)" #register="ngForm">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput type="text" placeholder="Enter Name" name="fname" #fname="ngModel" 
+          [(ngModel)]="cRegister.rName" required
+          [ngClass]="{'is-invalid' : (fname.touched || fname.dirty) && !fname.valid}">
+        </mat-form-field>
+        <span *ngIf="fname.touched && fname.errors?.['required']">
+          Please provide your name.
+        </span>
+        <mat-form-field class="example-full-width">
+          <input matInput type="email" placeholder="Enter Email" name="email" #email="ngModel" 
+          [(ngModel)]="cRegister.rEmail" required
+          [ngClass]="{'is-invalid' : (email.touched || email.dirty) && !email.valid}">
+        </mat-form-field>
+        <span *ngIf="email.touched && email.errors?.['required']">
+          Please provide valid email.
+        </span>
+        <mat-form-field class="example-full-width">
+          <input matInput type="password" placeholder="Enter Password" name="password" #password="ngModel" 
+          [(ngModel)]="cRegister.rPassword"
+          minlength="8" [ngClass]="{'is-invalid' : (password.touched || password.dirty) && !password.valid}">
+        </mat-form-field>
+        <span *ngIf="password.touched && password.errors?.['required']">
+          Please provide valid password.
+        </span>
+        <span *ngIf="password.touched && password.errors?.['minlength']">
+          Password need to be atleast 8 characters.
+        </span>
+      </mat-card-content>
+      <button type="submit" mat-stroked-button color="accent" class="btn-block"
+      [title]="register.valid?'Save Data':'Disable till Valid'"
+      [disabled]="!register.valid">Register</button>
+    </form>
+  </mat-card>
+</div>

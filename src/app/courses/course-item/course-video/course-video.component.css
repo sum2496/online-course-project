@@ -1,0 +1,13 @@
+.course-video {
+  position: relative;
+  top: 5rem;
+  background-color: rgb(220, 176, 183);
+  margin: 0 1rem 2rem;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.course-video iframe {
+  min-height: 60vh;
+  min-width: 90vw;
+}

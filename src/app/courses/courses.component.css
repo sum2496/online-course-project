@@ -1,0 +1,71 @@
+.courses {
+  position: relative;
+  top: 4rem;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-heading {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem 1rem 0 1rem;
+  margin: 1rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.search-bar {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.search-bar input {
+  padding: .5rem;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+}
+
+.courses-item {
+  background-color: rgb(244, 220, 246);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 1rem 1rem .5rem;
+  width: 90%;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.courses-item :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.courses-item :last-child {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: rgb(138, 138, 240);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}

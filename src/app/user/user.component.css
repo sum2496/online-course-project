@@ -1,0 +1,38 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: rgb(220, 220, 220);
+}
+
+.user {
+  position: relative;
+  top: 4rem;
+  z-index: 0;
+}
+
+mat-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 .5rem;
+}
+
+mat-nav-list a {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+mat-nav-list a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  padding-bottom: .5rem;
+}
+

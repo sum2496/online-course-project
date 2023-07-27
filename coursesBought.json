@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "courseOrder": [
+    {
+      "emailId": "Sumit2496@gmail.com",
+      "courseId": "1",
+      "id": 1
+    },
+    {
+      "emailId": "Sumit2496@gmail.com",
+      "courseId": "4",
+      "id": 2
+    },
+    {
+      "emailId": "Max@gmail.com",
+      "courseId": "3",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,7 @@
+<div>
+  <span>Course Review : </span>
+  <ngb-rating [(rate)]="currentRating" [max]="5" (rateChange)="onRatingChange($event)" aria-label="Star Rating"></ngb-rating>
+  <p>{{ currentRating }}</p>
+</div>
+
+

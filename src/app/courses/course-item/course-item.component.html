@@ -1,0 +1,30 @@
+<div class="course">
+  <div class="course-item-about">
+    <h1>About This Course </h1>
+  </div>
+  <div class="course-item">
+    <div class="course-item-1">
+      <div class="course-item-image">
+        <img src="{{ courseItem.course_thumbnail }}" alt="{{ courseItem.course_name }}">
+      </div>
+    </div>
+    <div class="course-item-2">
+      <div class="course-item-heading">
+        {{ courseItem.course_name }}
+      </div>
+      <div class="course-item-desc">
+        {{ courseItem.course_desc }}
+      </div>
+      <div class="course-item-instructor">
+        Course Instructor : {{ courseItem.course_instructor }}
+      </div>
+      <div class="course-item-price">
+        Course Price : Rs. {{ courseItem.course_price }}
+      </div>
+      <div class="course-item-enroll">
+        <button type="submit" (click)="startVideo()" *ngIf="hasBought"> Already Enrolled </button>
+        <button type="submit" (click)="onBuy()" *ngIf="!hasBought"> Buy Course </button>
+      </div>
+    </div>
+  </div>
+</div>

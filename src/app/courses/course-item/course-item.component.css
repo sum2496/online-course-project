@@ -1,0 +1,74 @@
+.course {
+  position: relative;
+  top: 6rem;
+  margin: 0 2rem;
+  min-height: 90vh;
+}
+
+.course-item-about {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 1rem 0 0 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(62, 128, 221);
+  color: white;
+}
+
+.course-item {
+  display: flex;
+  background-color: rgb(244, 220, 246);
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.course-item-heading  {
+  margin: 1rem 0;
+  padding: 1rem 0 0 1rem;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.course-item-1 {
+  max-width: 50vw;
+}
+
+.course-item-image img {
+  width: 30vw;
+}
+
+
+.course-item-2 {
+  margin-left: 1rem;
+}
+
+.course-item-desc {
+  margin: 3rem 1rem 0 1rem;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.course-item-instructor {
+  margin: 2rem 1rem;
+  font-size: 1.2rem;
+}
+
+.course-item-price {
+  margin: 2rem 1rem;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: rgb(138, 138, 240);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.course-item-enroll {
+  margin-left: 1rem;
+}

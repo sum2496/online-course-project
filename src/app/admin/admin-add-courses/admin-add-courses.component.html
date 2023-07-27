@@ -1,0 +1,40 @@
+<div class="add-courses">
+  <div class="add-courses-heading">
+    <h1>Add New Course</h1>
+  </div>
+  <div class="add-courses-form">
+    <form (ngSubmit)="courseForm" #courseForm="ngForm">
+      <div class="course-form-data">
+        <label for="course_name">Course Name : </label>
+        <input type="text" id="course_name" name="course_name" [(ngModel)]="course.course_name" #course_name="ngModel" required>
+      </div>
+      <div class="course-form-data">
+        <label for="course_name">Course Thumbnail (link to Thumbnail) : </label>
+        <input type="text" id="course_thumbnail" name="course_thumbnail" #course_thumbnail="ngModel" ngModel required>
+      </div>
+      <div class="course-form-data">
+        <label for="course_desc">Course Description : </label>
+        <textarea id="course_desc" name="course_desc" rows="4" [(ngModel)]="course.course_desc" #course_desc="ngModel" required></textarea>
+      </div>
+      <div class="course-form-data">
+        <label for="course_category">Course Category : </label>
+        <input type="text" id="course_category" name="course_category" [(ngModel)]="course.course_category" #course_category="ngModel" required>
+      </div>
+      <div class="course-form-data">
+        <label for="course_instructor">Course Instructor : </label>
+        <input type="text" id="course_instructor" name="course_instructor" [(ngModel)]="course.course_instructor" #course_instructor="ngModel" required>
+      </div>
+      <div class="course-form-data">
+        <label for="course_video">Course Video : </label>
+        <input type="text" id="course_video" name="course_video" [(ngModel)]="course.course_video" #course_video="ngModel" required>
+      </div>
+      <div class="course-form-data">
+        <label for="course-price">Course Price : </label>
+        <input type="number" id="course_price" name="course_price" [(ngModel)]="course.course_price" #course_price="ngModel" required>
+      </div>
+      <div class="course-form-data">
+        <button type="submit" (click)="submitCourseDetail(courseForm)">Submit Data</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.admin-users {
+  padding: 2rem;
+}
+
+.admin-user {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+.admin-user p {
+  margin-top: .5rem;
+}

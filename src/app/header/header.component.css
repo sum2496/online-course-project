@@ -1,0 +1,9 @@
+.nav-toolbar {
+  position: fixed;
+  z-index: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

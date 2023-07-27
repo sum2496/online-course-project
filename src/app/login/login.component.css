@@ -1,0 +1,52 @@
+
+.login-wrapper {
+  background: url("https://images.unsplash.com/photo-1616587894289-86480e533129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80") no-repeat 100% 100%;
+  background-size: 100%;
+  height: 100%;
+}
+.box {
+  position: relative;
+  top: 0;
+  opacity: .8;
+  float: left;
+  padding: 2.5rem;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 0;
+  max-width: 30%;
+}
+.login-wrapper .example-form {
+  min-width: 100%;
+  max-width: 50%;
+  width: 100%;
+}
+.login-wrapper .example-full-width,
+.login-wrapper .btn-block {
+  width: 100%;
+}
+.login-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+.login-wrapper mat-card-header mat-card-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.login-wrapper .mat-card {
+  padding: 3rem;
+}
+.login-wrapper .mat-stroked-button {
+  border: 1px solid currentColor;
+  line-height: 1.5;
+  background: #FFF7FA;
+}
+.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 1rem 0;
+}
+
+.is-invalid {
+  border: 2px solid red;
+}

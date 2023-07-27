@@ -1,0 +1,30 @@
+<div class="courses">
+  <div class="courses-heading">
+    <h1> Courses Enrolled </h1>
+  </div>
+  <!-- <div class="search">
+    <div class="search-bar">
+      <label for="cName">Search by Course Name : </label>
+      <input type="text" name="cName" id="cName" [(ngModel)]="courseName" >
+    </div>
+    <div class="search-bar">
+      <label for="cName">Search by Course Category : </label>
+      <input type="text" name="cCategory" id="cCategory" [(ngModel)]="courseCategory">
+    </div>
+  </div> -->
+  <!-- <button type="submit" (click)="searchByCourseName()"> Search </button> -->
+  <div class="courses-list">
+    <div class="courses-item" *ngFor="let course of courseBoughtByUser">
+      <img [src]="course.course_thumbnail" width="60" height="150" alt="">
+      <p>{{ course.course_name }}</p>
+      <p>{{ course.course_desc.substring(0,80) }} ...</p>
+      <p>{{ course.course_category }}</p>
+      <p>{{ course.course_instructor }}</p>
+      <!-- <p>{{ course.course_review }}</p> -->
+      <p> 
+        <strong>Rs. {{ course.course_price }} </strong>  
+        <button type="submit" routerLink="/courses/{{course.id}}"> Already Enrolled </button>
+      </p>
+    </div>
+  </div>
+</div>
